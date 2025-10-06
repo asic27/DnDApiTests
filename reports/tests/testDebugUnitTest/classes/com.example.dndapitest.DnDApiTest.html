@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.example.dndapitest.DnDApiTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.dndapitest.DnDApiTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.dndapitest.html">com.example.dndapitest</a> &gt; DnDApiTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.963s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">87%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="test get info about spells"></a>
+<h3 class="failures">test get info about spells</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;200&gt; but was: &lt;400&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:528)
+	at com.example.dndapitest.DnDApiTest$test get info about spells$1.invokeSuspend(DnDApiTest.kt:234)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.test.TestDispatcher.processEvent$kotlinx_coroutines_test(TestDispatcher.kt:24)
+	at kotlinx.coroutines.test.TestCoroutineScheduler.tryRunNextTaskUnless$kotlinx_coroutines_test(TestCoroutineScheduler.kt:99)
+	at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$2$1$workRunner$1.invokeSuspend(TestBuilders.kt:322)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:10)
+	at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:310)
+	at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source)
+	at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0(TestBuilders.kt:168)
+	at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0(Unknown Source)
+	at kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest-8Mi8wO0$default(TestBuilders.kt:160)
+	at kotlinx.coroutines.test.TestBuildersKt.runTest-8Mi8wO0$default(Unknown Source)
+	at com.example.dndapitest.DnDApiTest.test get info about spells(DnDApiTest.kt:215)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test get info about existing monster</td>
+<td class="success">0.643s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test get info about non existing monster</td>
+<td class="success">0.642s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test get info about not existing race</td>
+<td class="success">1.392s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test get info about race</td>
+<td class="success">0.686s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test get info about races</td>
+<td class="success">0.643s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test get info about spells</td>
+<td class="failures">0.643s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">test get info about spells not API documentation style</td>
+<td class="success">0.658s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test get info about spells with bad filter's options</td>
+<td class="success">0.656s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:10:24.376 [Test worker @coroutine#5] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/races/tofu
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:25.296 [DefaultDispatcher-worker-4 @ktor-cio-context#23] INFO io.ktor.client.HttpClient -- RESPONSE: 404 Not Found
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/races/tofu
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 9
+-&gt; Content-Type: text/plain; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:24 GMT
+-&gt; Etag: W/&quot;9-0gXL1ngzMqISxa6S1zx3F4wtLyg&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=4Yrzj58L0aFyyre6iw%2FTD2IIEv%2Fqb8FhaFvzOHedj3o%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781424&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=4Yrzj58L0aFyyre6iw%2FTD2IIEv%2Fqb8FhaFvzOHedj3o%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781424&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 99
+-&gt; X-Ratelimit-Reset: 1759781426
+BODY Content-Type: text/plain; charset=utf-8
+BODY START
+Not Found
+BODY END
+23:10:25.378 [Test worker @coroutine#28] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/races/elf
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:26.008 [DefaultDispatcher-worker-4 @ktor-cio-context#44] INFO io.ktor.client.HttpClient -- RESPONSE: 200 OK
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/races/elf
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 1866
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:24 GMT
+-&gt; Etag: W/&quot;74a-8jehx9EBhQ6KM9LHMWFIhfsGwIA&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=4Yrzj58L0aFyyre6iw%2FTD2IIEv%2Fqb8FhaFvzOHedj3o%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781424&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=4Yrzj58L0aFyyre6iw%2FTD2IIEv%2Fqb8FhaFvzOHedj3o%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781424&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 98
+-&gt; X-Ratelimit-Reset: 1759781426
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;index&quot;:&quot;elf&quot;,&quot;name&quot;:&quot;Elf&quot;,&quot;speed&quot;:30,&quot;ability_bonuses&quot;:[{&quot;ability_score&quot;:{&quot;index&quot;:&quot;dex&quot;,&quot;name&quot;:&quot;DEX&quot;,&quot;url&quot;:&quot;/api/2014/ability-scores/dex&quot;},&quot;bonus&quot;:2}],&quot;age&quot;:&quot;Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.&quot;,&quot;alignment&quot;:&quot;Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not.&quot;,&quot;size&quot;:&quot;Medium&quot;,&quot;size_description&quot;:&quot;Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.&quot;,&quot;starting_proficiencies&quot;:[{&quot;index&quot;:&quot;skill-perception&quot;,&quot;name&quot;:&quot;Skill: Perception&quot;,&quot;url&quot;:&quot;/api/2014/proficiencies/skill-perception&quot;}],&quot;languages&quot;:[{&quot;index&quot;:&quot;common&quot;,&quot;name&quot;:&quot;Common&quot;,&quot;url&quot;:&quot;/api/2014/languages/common&quot;},{&quot;index&quot;:&quot;elvish&quot;,&quot;name&quot;:&quot;Elvish&quot;,&quot;url&quot;:&quot;/api/2014/languages/elvish&quot;}],&quot;language_desc&quot;:&quot;You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.&quot;,&quot;traits&quot;:[{&quot;index&quot;:&quot;darkvision&quot;,&quot;name&quot;:&quot;Darkvision&quot;,&quot;url&quot;:&quot;/api/2014/traits/darkvision&quot;},{&quot;index&quot;:&quot;fey-ancestry&quot;,&quot;name&quot;:&quot;Fey Ancestry&quot;,&quot;url&quot;:&quot;/api/2014/traits/fey-ancestry&quot;},{&quot;index&quot;:&quot;trance&quot;,&quot;name&quot;:&quot;Trance&quot;,&quot;url&quot;:&quot;/api/2014/traits/trance&quot;},{&quot;index&quot;:&quot;keen-senses&quot;,&quot;name&quot;:&quot;Keen Senses&quot;,&quot;url&quot;:&quot;/api/2014/traits/keen-senses&quot;}],&quot;subraces&quot;:[{&quot;index&quot;:&quot;high-elf&quot;,&quot;name&quot;:&quot;High Elf&quot;,&quot;url&quot;:&quot;/api/2014/subraces/high-elf&quot;}],&quot;url&quot;:&quot;/api/2014/races/elf&quot;,&quot;updated_at&quot;:&quot;2025-09-04T17:33:10.233Z&quot;}
+BODY END
+23:10:26.069 [Test worker @coroutine#51] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/spells?level=abc&amp;school=evocation
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:26.697 [DefaultDispatcher-worker-17 @ktor-cio-context#67] INFO io.ktor.client.HttpClient -- RESPONSE: 400 Bad Request
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/spells?level=abc&amp;school=evocation
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 203
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:25 GMT
+-&gt; Etag: W/&quot;cb-1YJ2f6+tWLybl875ZiEyDrnit0k&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=UiHZ3xrnkvS88Kk7hmz84%2F7wbcxfBiImyK2jrondG%2BA%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781425&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=UiHZ3xrnkvS88Kk7hmz84%2F7wbcxfBiImyK2jrondG%2BA%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781425&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 96
+-&gt; X-Ratelimit-Reset: 1759781427
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;error&quot;:&quot;Invalid query parameters&quot;,&quot;details&quot;:[{&quot;origin&quot;:&quot;string&quot;,&quot;code&quot;:&quot;invalid_format&quot;,&quot;format&quot;:&quot;regex&quot;,&quot;pattern&quot;:&quot;/^\\d+$/&quot;,&quot;path&quot;:[&quot;level&quot;],&quot;message&quot;:&quot;Invalid string: must match pattern /^\\d+$/&quot;}]}
+BODY END
+23:10:26.724 [Test worker @coroutine#74] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/monsters/toster
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:27.348 [DefaultDispatcher-worker-3 @ktor-cio-context#90] INFO io.ktor.client.HttpClient -- RESPONSE: 404 Not Found
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/monsters/toster
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 9
+-&gt; Content-Type: text/plain; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:26 GMT
+-&gt; Etag: W/&quot;9-0gXL1ngzMqISxa6S1zx3F4wtLyg&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=jD3Z%2B6jeFkj%2FZQAw0ZzF6tJCeC3eBvAhfjPgAgzRMQo%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781426&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=jD3Z%2B6jeFkj%2FZQAw0ZzF6tJCeC3eBvAhfjPgAgzRMQo%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781426&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 98
+-&gt; X-Ratelimit-Reset: 1759781428
+BODY Content-Type: text/plain; charset=utf-8
+BODY START
+Not Found
+BODY END
+23:10:27.366 [Test worker @coroutine#97] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/races
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:27.990 [DefaultDispatcher-worker-6 @ktor-cio-context#113] INFO io.ktor.client.HttpClient -- RESPONSE: 200 OK
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/races
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 635
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:26 GMT
+-&gt; Etag: W/&quot;27b-ClGxFS0LoPXLUxFy/WIcykPXTGE&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=jD3Z%2B6jeFkj%2FZQAw0ZzF6tJCeC3eBvAhfjPgAgzRMQo%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781426&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=jD3Z%2B6jeFkj%2FZQAw0ZzF6tJCeC3eBvAhfjPgAgzRMQo%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781426&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 91
+-&gt; X-Ratelimit-Reset: 1759781428
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;count&quot;:9,&quot;results&quot;:[{&quot;index&quot;:&quot;dragonborn&quot;,&quot;name&quot;:&quot;Dragonborn&quot;,&quot;url&quot;:&quot;/api/2014/races/dragonborn&quot;},{&quot;index&quot;:&quot;dwarf&quot;,&quot;name&quot;:&quot;Dwarf&quot;,&quot;url&quot;:&quot;/api/2014/races/dwarf&quot;},{&quot;index&quot;:&quot;elf&quot;,&quot;name&quot;:&quot;Elf&quot;,&quot;url&quot;:&quot;/api/2014/races/elf&quot;},{&quot;index&quot;:&quot;gnome&quot;,&quot;name&quot;:&quot;Gnome&quot;,&quot;url&quot;:&quot;/api/2014/races/gnome&quot;},{&quot;index&quot;:&quot;half-elf&quot;,&quot;name&quot;:&quot;Half-Elf&quot;,&quot;url&quot;:&quot;/api/2014/races/half-elf&quot;},{&quot;index&quot;:&quot;half-orc&quot;,&quot;name&quot;:&quot;Half-Orc&quot;,&quot;url&quot;:&quot;/api/2014/races/half-orc&quot;},{&quot;index&quot;:&quot;halfling&quot;,&quot;name&quot;:&quot;Halfling&quot;,&quot;url&quot;:&quot;/api/2014/races/halfling&quot;},{&quot;index&quot;:&quot;human&quot;,&quot;name&quot;:&quot;Human&quot;,&quot;url&quot;:&quot;/api/2014/races/human&quot;},{&quot;index&quot;:&quot;tiefling&quot;,&quot;name&quot;:&quot;Tiefling&quot;,&quot;url&quot;:&quot;/api/2014/races/tiefling&quot;}]}
+BODY END
+23:10:28.013 [Test worker @coroutine#120] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/spells?level=1&amp;level=2&amp;school=evocation
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:28.648 [DefaultDispatcher-worker-14 @ktor-cio-context#136] INFO io.ktor.client.HttpClient -- RESPONSE: 200 OK
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/spells?level=1&amp;level=2&amp;school=evocation
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 1924
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:27 GMT
+-&gt; Etag: W/&quot;784-3EWfF6J2Wca5H9HPGbsYseEXpD8&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=Qw8KSqXR3SznT37V0JTu4oVvbNsSEYfuSbvDYec%2B0II%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781427&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=Qw8KSqXR3SznT37V0JTu4oVvbNsSEYfuSbvDYec%2B0II%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781427&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 96
+-&gt; X-Ratelimit-Reset: 1759781429
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;count&quot;:20,&quot;results&quot;:[{&quot;index&quot;:&quot;acid-arrow&quot;,&quot;name&quot;:&quot;Acid Arrow&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/acid-arrow&quot;},{&quot;index&quot;:&quot;branding-smite&quot;,&quot;name&quot;:&quot;Branding Smite&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/branding-smite&quot;},{&quot;index&quot;:&quot;burning-hands&quot;,&quot;name&quot;:&quot;Burning Hands&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/burning-hands&quot;},{&quot;index&quot;:&quot;continual-flame&quot;,&quot;name&quot;:&quot;Continual Flame&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/continual-flame&quot;},{&quot;index&quot;:&quot;cure-wounds&quot;,&quot;name&quot;:&quot;Cure Wounds&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/cure-wounds&quot;},{&quot;index&quot;:&quot;darkness&quot;,&quot;name&quot;:&quot;Darkness&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/darkness&quot;},{&quot;index&quot;:&quot;divine-favor&quot;,&quot;name&quot;:&quot;Divine Favor&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/divine-favor&quot;},{&quot;index&quot;:&quot;faerie-fire&quot;,&quot;name&quot;:&quot;Faerie Fire&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/faerie-fire&quot;},{&quot;index&quot;:&quot;flame-blade&quot;,&quot;name&quot;:&quot;Flame Blade&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/flame-blade&quot;},{&quot;index&quot;:&quot;guiding-bolt&quot;,&quot;name&quot;:&quot;Guiding Bolt&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/guiding-bolt&quot;},{&quot;index&quot;:&quot;gust-of-wind&quot;,&quot;name&quot;:&quot;Gust of Wind&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/gust-of-wind&quot;},{&quot;index&quot;:&quot;healing-word&quot;,&quot;name&quot;:&quot;Healing Word&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/healing-word&quot;},{&quot;index&quot;:&quot;hellish-rebuke&quot;,&quot;name&quot;:&quot;Hellish Rebuke&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/hellish-rebuke&quot;},{&quot;index&quot;:&quot;magic-missile&quot;,&quot;name&quot;:&quot;Magic Missile&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/magic-missile&quot;},{&quot;index&quot;:&quot;moonbeam&quot;,&quot;name&quot;:&quot;Moonbeam&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/moonbeam&quot;},{&quot;index&quot;:&quot;prayer-of-healing&quot;,&quot;name&quot;:&quot;Prayer of Healing&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/prayer-of-healing&quot;},{&quot;index&quot;:&quot;scorching-ray&quot;,&quot;name&quot;:&quot;Scorching Ray&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/scorching-ray&quot;},{&quot;index&quot;:&quot;shatter&quot;,&quot;name&quot;:&quot;Shatter&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/shatter&quot;},{&quot;index&quot;:&quot;spiritual-weapon&quot;,&quot;name&quot;:&quot;Spiritual Weapon&quot;,&quot;level&quot;:2,&quot;url&quot;:&quot;/api/2014/spells/spiritual-weapon&quot;},{&quot;index&quot;:&quot;thunderwave&quot;,&quot;name&quot;:&quot;Thunderwave&quot;,&quot;level&quot;:1,&quot;url&quot;:&quot;/api/2014/spells/thunderwave&quot;}]}
+BODY END
+23:10:28.670 [Test worker @coroutine#143] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/spells?level=1%2C2&amp;school=evocation
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:29.291 [DefaultDispatcher-worker-21 @ktor-cio-context#159] INFO io.ktor.client.HttpClient -- RESPONSE: 400 Bad Request
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/spells?level=1%2C2&amp;school=evocation
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 203
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:28 GMT
+-&gt; Etag: W/&quot;cb-1YJ2f6+tWLybl875ZiEyDrnit0k&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=83EBIKj9KgXpvjh%2FTAPU988OhS%2FonnLedVPvNrSpE9A%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781428&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=83EBIKj9KgXpvjh%2FTAPU988OhS%2FonnLedVPvNrSpE9A%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781428&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 93
+-&gt; X-Ratelimit-Reset: 1759781429
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;error&quot;:&quot;Invalid query parameters&quot;,&quot;details&quot;:[{&quot;origin&quot;:&quot;string&quot;,&quot;code&quot;:&quot;invalid_format&quot;,&quot;format&quot;:&quot;regex&quot;,&quot;pattern&quot;:&quot;/^\\d+$/&quot;,&quot;path&quot;:[&quot;level&quot;],&quot;message&quot;:&quot;Invalid string: must match pattern /^\\d+$/&quot;}]}
+BODY END
+23:10:29.314 [Test worker @coroutine#166] INFO io.ktor.client.HttpClient -- REQUEST: https://www.dnd5eapi.co/api/2014/monsters/bugbear
+METHOD: HttpMethod(value=GET)
+COMMON HEADERS
+-&gt; Accept: application/json
+-&gt; Accept-Charset: UTF-8
+CONTENT HEADERS
+-&gt; Content-Length: 0
+BODY Content-Type: null
+BODY START
+
+BODY END
+23:10:29.939 [DefaultDispatcher-worker-24 @ktor-cio-context#182] INFO io.ktor.client.HttpClient -- RESPONSE: 200 OK
+METHOD: HttpMethod(value=GET)
+FROM: https://www.dnd5eapi.co/api/2014/monsters/bugbear
+COMMON HEADERS
+-&gt; Access-Control-Allow-Origin: *
+-&gt; Content-Length: 2188
+-&gt; Content-Type: application/json; charset=utf-8
+-&gt; Date: Mon, 06 Oct 2025 20:10:28 GMT
+-&gt; Etag: W/&quot;88c-kySSSOenLBHqpKKzH3yeapSJWSM&quot;
+-&gt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+-&gt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=83EBIKj9KgXpvjh%2FTAPU988OhS%2FonnLedVPvNrSpE9A%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1759781428&quot;}],&quot;max_age&quot;:3600}
+-&gt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=83EBIKj9KgXpvjh%2FTAPU988OhS%2FonnLedVPvNrSpE9A%3D&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;ts=1759781428&quot;
+-&gt; Server: Heroku
+-&gt; Via: 1.1 heroku-router
+-&gt; X-Powered-By: Express
+-&gt; X-Ratelimit-Limit: 100
+-&gt; X-Ratelimit-Remaining: 99
+-&gt; X-Ratelimit-Reset: 1759781430
+BODY Content-Type: application/json; charset=utf-8
+BODY START
+{&quot;index&quot;:&quot;bugbear&quot;,&quot;name&quot;:&quot;Bugbear&quot;,&quot;size&quot;:&quot;Medium&quot;,&quot;type&quot;:&quot;humanoid&quot;,&quot;subtype&quot;:&quot;goblinoid&quot;,&quot;alignment&quot;:&quot;chaotic evil&quot;,&quot;armor_class&quot;:[{&quot;type&quot;:&quot;armor&quot;,&quot;value&quot;:16,&quot;armor&quot;:[{&quot;index&quot;:&quot;shield&quot;,&quot;name&quot;:&quot;Shield&quot;,&quot;url&quot;:&quot;/api/2014/equipment/shield&quot;},{&quot;index&quot;:&quot;hide-armor&quot;,&quot;name&quot;:&quot;Hide Armor&quot;,&quot;url&quot;:&quot;/api/2014/equipment/hide-armor&quot;}]}],&quot;hit_points&quot;:27,&quot;hit_dice&quot;:&quot;5d8&quot;,&quot;hit_points_roll&quot;:&quot;5d8+5&quot;,&quot;speed&quot;:{&quot;walk&quot;:&quot;30 ft.&quot;},&quot;strength&quot;:15,&quot;dexterity&quot;:14,&quot;constitution&quot;:13,&quot;intelligence&quot;:8,&quot;wisdom&quot;:11,&quot;charisma&quot;:9,&quot;proficiencies&quot;:[{&quot;value&quot;:6,&quot;proficiency&quot;:{&quot;index&quot;:&quot;skill-stealth&quot;,&quot;name&quot;:&quot;Skill: Stealth&quot;,&quot;url&quot;:&quot;/api/2014/proficiencies/skill-stealth&quot;}},{&quot;value&quot;:2,&quot;proficiency&quot;:{&quot;index&quot;:&quot;skill-survival&quot;,&quot;name&quot;:&quot;Skill: Survival&quot;,&quot;url&quot;:&quot;/api/2014/proficiencies/skill-survival&quot;}}],&quot;damage_vulnerabilities&quot;:[],&quot;damage_resistances&quot;:[],&quot;damage_immunities&quot;:[],&quot;condition_immunities&quot;:[],&quot;senses&quot;:{&quot;darkvision&quot;:&quot;60 ft.&quot;,&quot;passive_perception&quot;:10},&quot;languages&quot;:&quot;Common, Goblin&quot;,&quot;challenge_rating&quot;:1,&quot;proficiency_bonus&quot;:2,&quot;xp&quot;:200,&quot;special_abilities&quot;:[{&quot;name&quot;:&quot;Brute&quot;,&quot;desc&quot;:&quot;A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).&quot;,&quot;damage&quot;:[]},{&quot;name&quot;:&quot;Surprise Attack&quot;,&quot;desc&quot;:&quot;If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.&quot;,&quot;damage&quot;:[]}],&quot;actions&quot;:[{&quot;name&quot;:&quot;Morningstar&quot;,&quot;desc&quot;:&quot;Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.&quot;,&quot;attack_bonus&quot;:4,&quot;damage&quot;:[{&quot;damage_type&quot;:{&quot;index&quot;:&quot;piercing&quot;,&quot;name&quot;:&quot;Piercing&quot;,&quot;url&quot;:&quot;/api/2014/damage-types/piercing&quot;},&quot;damage_dice&quot;:&quot;2d8+2&quot;}],&quot;actions&quot;:[]},{&quot;name&quot;:&quot;Javelin&quot;,&quot;desc&quot;:&quot;Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.&quot;,&quot;attack_bonus&quot;:4,&quot;damage&quot;:[{&quot;damage_type&quot;:{&quot;index&quot;:&quot;piercing&quot;,&quot;name&quot;:&quot;Piercing&quot;,&quot;url&quot;:&quot;/api/2014/damage-types/piercing&quot;},&quot;damage_dice&quot;:&quot;2d6+2&quot;}],&quot;actions&quot;:[]}],&quot;image&quot;:&quot;/api/images/monsters/bugbear.png&quot;,&quot;url&quot;:&quot;/api/2014/monsters/bugbear&quot;,&quot;updated_at&quot;:&quot;2025-05-04T02:15:02.223Z&quot;,&quot;forms&quot;:[],&quot;legendary_actions&quot;:[],&quot;reactions&quot;:[]}
+BODY END
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 6 окт. 2025 г., 23:10:30</p>
+</div>
+</div>
+</body>
+</html>

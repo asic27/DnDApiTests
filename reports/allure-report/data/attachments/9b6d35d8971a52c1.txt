@@ -1,0 +1,1 @@
+{"error":"Invalid query parameters","details":[{"origin":"string","code":"invalid_format","format":"regex","pattern":"/^\\d+$/","path":["level"],"message":"Invalid string: must match pattern /^\\d+$/"}]}
